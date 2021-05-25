@@ -34,7 +34,7 @@ function App() {
     sourceSelect = document.getElementById("sourceSelect");
 
     // selects first device
-    setSelectedDeviceId(videoInputDevices[0].deviceId);
+    setSelectedDeviceId(videoInputDevices[1].deviceId);
 
     // setup devices dropdown
     if (videoInputDevices.length >= 1) {
@@ -112,7 +112,7 @@ function App() {
         </div>
 
         <div>
-          <video id='video' width='300' height='200' />
+          <video id='video' width='700' height='450' />
         </div>
 
         <label>Result:</label>
